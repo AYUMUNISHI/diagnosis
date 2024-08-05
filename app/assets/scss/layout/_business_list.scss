@@ -1,0 +1,144 @@
+@use "../foundation/_color" as color;
+@use "../foundation/_font" as font;
+
+
+section{
+  width: 100%;
+}
+.business-list-site{
+  position: relative;
+  height: 3308px;
+  background-color: rgba(246, 244, 239, 1);
+  .business-list-title{
+    height: 400px;
+    position: absolute;
+    top: 130px;
+    .title-container{
+      position: relative;
+      padding: 102.5px 56px;
+      .title-wrapper{
+        padding-top: 40px;
+        width: 92%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+
+        h5{
+          width: 85px;
+          height: 42px;
+          font-size: 30px;
+          line-height: 42px;
+          letter-spacing :0.1em;
+        }
+        .title{
+          width: 439px;
+          height: 73px;
+        }
+      }
+    }
+  }
+  .narrowing-down{
+    position: absolute;
+    top: 530px;
+    .narrowing-down-container{
+      width: 100%;
+      padding: 0 344px 60px 344px;
+      display: flex;
+      justify-content: space-between;
+      h6{
+        width: 94px;
+        height: 32px;
+      }
+      .border{
+        height: 30px;
+        border-left: 1px solid black;
+        margin-top: 1px;
+      }
+      .narrowing-list{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        li{
+          display: flex;
+          gap: 12px;
+          .health{
+            width: 113px;
+            height: 32px;
+          }
+          .water{
+            width: 169px;
+            height: 32px;
+          }
+          .air{
+            width: 75px;
+            height: 32px;
+          }
+        }
+      }
+
+    }
+  }
+  .case-list{
+    position: absolute;
+    top: 622px;
+    .list-container{
+      padding: 0 56px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 70px;
+    }
+     
+  }
+  .case-list-btn{
+    position: absolute;
+    top: 2196px;
+    .pages-number{
+      width: 20.5%;
+      height: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        li{
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: color.$bg-gre;
+          color: color.$c-wha;
+        }
+        .number{
+          font-weight: 700;
+          font-size: 18.75px;
+          line-height: 26.25px;
+
+        }
+        span{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700;
+          font-size: 18.75px;
+          line-height: 26.25px;
+        }
+        .font{
+          font-size: 15px;
+          line-height: 21px;
+
+        }
+
+      }
+    }
+  }
+  .business-list-contact{
+    position: absolute;
+    top: 2328px;
+  }
+
+}

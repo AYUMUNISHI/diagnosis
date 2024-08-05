@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diagnosis</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <header>
+    <a  href="index.html" class="log">
+      <img src="assets/img/logo.png" alt="">
+    </a>
+    <div class="header-right">
+      <div class="header-contact">
+        <div class="header-phone">
+          <div class="phone">
+            <img src="assets/img/header-phone.png" alt="">
+          </div>
+          <div class="phone-in">
+            <img src="assets/img/header-phonein.png" alt="">
+          </div>
+          <img src="Vector" alt="">
+          <div>
+            <h3 class="phone-number Montserrat">0120-000-000</h3>
+          </div>
+        </div>
+        <div class="regular">
+          <p >0:00~00:00（○○曜日定休）</p>
+        </div>
+
+      </div>
+      <a href="#" class="header-form btn white">
+        メールでお問い合わせ
+        <img src="assets/img/mail.png" alt="">
+      </a>
+      <div class="header-line">
+      </div>
+    </div>
+  </header>
+
+    <%= yield %>
+  </body>
+</html>

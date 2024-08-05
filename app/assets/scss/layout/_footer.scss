@@ -1,0 +1,332 @@
+@use "../foundation/_color" as color;
+@use "../foundation/_font" as font;
+
+.contact{
+  position: absolute;
+  top: 4191px;
+  width: 100%;
+  height: 980px;
+
+  footer{
+    background-color: color.$c-wha;
+    .contact-container{
+      width: 100%;
+      height: 528px;
+      padding: 100px 0 ;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      .contact-wrapper{
+        width: 92%;
+        height: 328px;
+        border-radius: 30px;
+        border: 1px solid color.$c-gre;
+        padding: 100px 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contact-title{
+          width: 238px;
+          height: 108px;
+          z-index: 20;
+          h2{
+            width: 238px;
+            height: 70px;
+            transform:rotate(0deg);
+            transform-origin: left top;
+            font-size: 50px;
+            line-height: 70px;
+          }
+          h5{
+            width: 135px;
+            height: 38px;
+          }
+        }
+        .information{
+          width: 368px;
+          height: 127px;
+          display: flex;
+          flex-wrap: wrap;
+          row-gap: 10px;
+          text-align: center;
+          .information-text{
+            width: 368px;
+            height: 27px;
+            p{
+              line-height: 27.2px;
+
+            }
+          }
+            .information-regular {
+            width: 220px;
+            height: 19px;
+            margin-left: auto;
+            margin-right: auto;
+    
+            p{
+              font-family: "Inter", sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19.36px;
+              font-style: normal;
+              color: #000000;
+            }
+          }
+          h2{
+            width: 360px;
+            height: 61px;
+            font-size: 50px;
+            line-height: 60.95px;
+            letter-spacing: 0em;
+            color: color.$c-gre;
+          }
+        }
+        .form{
+          width: 279.3px;
+          height: 128px;
+          display: flex;
+          flex-wrap: wrap;
+          row-gap: 20px;
+          .form-text{
+            width: 160px;
+            height: 19px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .contact-form{
+            width: 279.3px;
+            height: 50px;
+            border-radius: 40px;
+            padding: 12px 30px;
+            gap: 10px;
+            background-color: color.$bg-gre;
+            text-decoration: none;
+            color: color.$c-wha;
+            font-style: normal;
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            img{
+              width: 19.3px;
+              height: 14px;
+              position: absolute;
+              top: 18px;
+              left: 211.79px;
+            }
+            .mail-img{
+              width: 17.51px;
+              height: 12.32px;
+              background-color: color.$c-wha;
+            }
+          }
+          
+        }
+          .reception{
+            width: 84px;
+            height: 19px;
+            margin-left: auto;
+            margin-right: auto;
+          
+          }
+      }
+      .circle{
+        position: absolute;
+        top: calc(4389px - 4191px);
+        left: 5.9%;
+        width: 185px;
+        height: 185px;
+        border-radius: 50%;
+        background-color: rgba(246, 244, 239, 1);
+      }
+
+    }
+    .company-info{
+      width: 92%;
+      height: 220px;
+      position: absolute;
+      top: calc(4741px - 4191px);
+      left: 4%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .company{
+        height: 181.74px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 24px;
+        img{
+          width: 137.43px;
+          height: 88.74px;
+        }
+        p{
+          width: 288px;
+          height: 69px;
+          font-size: 16px;
+          line-height: 23.17px;
+        
+        }
+
+
+      }
+      .info{
+        width: 604px;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        .info-content{
+          column-gap: 60px;
+          display: flex;
+          .about-menu{
+            width: 131px;
+            height: 32px;
+          }
+          .business-menu{
+            width: 105px;
+            height: 120px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            h6{
+              width: 75px;
+              height: 32px;
+            }
+            .sub-menu{
+              height: 78px;
+              li{
+                font-family: "Noto Sans JP", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25.5px;
+                color:color.$c-bla;
+                .equipment-menu{
+                  width: 60px;
+                  height: 26px;
+                }
+                .renovation-menu{
+                  width: 75px;
+                  height: 26px;
+                }
+                .energy-menu{
+                  width: 105px;
+                  height: 26px;
+                }
+                
+              }
+              
+            }
+            
+            
+          }
+          .staff-menu{
+            width: 113px;
+            height: 32px;
+            
+          }
+          .contact-menu{
+            width: 75px;
+            height: 32px;
+          }
+          
+        }
+        .info-form{
+          width: 484.44px;
+          height: 50px;
+          margin: 0 0 0 auto;
+          display: flex;
+          gap: 24px;
+          .phone-form{
+            width: 221.14px;
+            height: 50px;
+            border-radius: 40px;
+            padding: 12px 30px;
+            gap: 10px;
+            background-color: rgba(253, 187, 3, 1);
+            text-decoration: none;
+            color: color.$c-bla;
+            font-weight: 500;
+            font-style: normal;
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .phone{
+              width: 16.14px;
+              height: 16.29px;
+              position: absolute;
+              top: 16.86px;
+              left: 176.14px;
+              z-index: 20;
+
+            }
+            .phone-in{
+              width: 16.14px;
+              height: 16.29px;
+              position: absolute;
+              top: 16.86px;
+              left: 176.14px;
+            }
+
+          }
+          .mail-form{
+            width: 239.3px;
+            height: 50px;
+            border-radius: 40px;
+            padding: 12px 30px;
+            gap: 10px;
+            background-color: color.$bg-gre;
+            text-decoration: none;
+            color: color.$c-wha;
+            font-weight: 500;
+            font-style: normal;
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            img{
+              width: 19.3px;
+              height: 14px;
+              background-color: color.$bg-wha;
+            }
+
+          }
+
+        }
+      }
+      
+    }
+    .footer{
+      width: 100%;
+      height: 113px;
+      position: absolute;
+      top: calc(5025px - 4191px);
+      padding: 60px 64px 62px 50px;
+      display: flex;
+      justify-content: space-between;
+      .footer-log{
+        width: 309px;
+        height: 23px;
+        font-size: 16px;
+        line-height: 23.17px;
+        font-weight: 400;
+      }
+      .policy{
+        width: 160px;
+        height: 23px;
+        font-size: 16px;
+        line-height: 23.17px;
+
+      }
+
+    }
+  }
+  
+}

@@ -1,0 +1,19 @@
+@use "../foundation/_color" as color;
+@use "../foundation/_font" as font;
+@use "../foundation/_mixin" as mixin;
+
+
+.registration{
+  .form-header{
+    h1{
+
+    }
+  }
+  .registration-container{
+    .form-group{
+      .form-text-wrap{
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@use "../foundation/_color" as color;
+@use "../foundation/_font" as font;
+@use "../foundation/_mixin" as mixin;
+
+.top-site{
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  background-color: #F6F4EF;
+  
+  .lists{
+    display: flex;
+    font-size: 12px;
+    .list{
+      height: 30px;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .number{
+      width: 50px;
+    }
+    .name{
+      width: 60px;
+
+    }
+    .cana{
+      width: 120px;
+
+    }
+    .figure{
+      width: 60px;
+    }
+    .department{
+      width: 60px;
+
+    }
+    .phone_number{
+      width: 100px;
+    }
+    .postal_code{
+      width: 80px;
+    }
+    .address{
+      width: 100px;
+    }
+    .building{
+      width: 90px;
+    }
+    .gender{
+      width: 50px;
+    }
+    .blood_type{
+      width: 50px;
+    }
+    .e-mail{
+      width: 120px;
+    }
+    .birthday{
+      width: 100px;
+    }
+  }
+}

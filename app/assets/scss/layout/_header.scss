@@ -1,0 +1,116 @@
+@use "../foundation/_color" as color;
+@use "../foundation/_font" as font;
+
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  position:fixed;
+  .log{
+    width: 130px;
+    height: 130px;
+    background-color: color.$bg-wha;
+    border-radius: 0 0 20px 0;
+    position: relative;
+    img{
+      width: 92.92px;
+      height: 60px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    
+  }
+  .header-right{
+    display: flex;
+    column-gap: 24px;
+    padding: 15px 30px;
+    align-items: center;
+
+    .header-contact{
+      column-gap: 10px;
+      display: flex;
+
+      .header-phone{
+        width: 246.06px;
+        height: 30px;
+        column-gap: 6px;
+        display: flex;
+        position: relative;
+        .phone {
+          width: 24.06px;
+          height: 24.29px;
+        img{
+            width: 24.06px;
+            height: 24.29px;
+            position: absolute;
+            top: 2.86px;
+            left: 1.7px;
+            z-index: 20;
+          }
+  
+        }
+        .phone-in img{
+          width: 22.36px;
+          height: 22.59px;
+          position: absolute;
+          top: 2.86px;
+          left: 1.7px;
+        }
+        h3{
+          width: 216px;
+          height: 30px;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 30px;
+          color: #FDBB03;
+        
+        }
+      }
+      .regular {
+      display: flex;
+      align-items: flex-end;
+        p{
+          width: 135px;
+          height: 15px;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 15px;
+        }
+      }
+
+    }
+    .header-form{
+      width: 239.3px;
+      height: 50px;
+      border-radius: 40px;
+      padding: 12px 30px;
+      gap: 10px;
+      background-color: color.$bg-gre;
+      text-decoration: none;
+      color: color.$c-wha;
+      font-weight: 500;
+      font-style: normal;
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      img{
+        width: 19.3px;
+        height: 14px;
+        background-color: color.$bg-wha;
+      }
+    }
+    .header-line{
+      width: 80px;
+      height: 20px;
+      border-top: 2px solid color.$c-bla;
+      border-bottom: 2px solid color.$c-bla;
+    }
+  }
+}
